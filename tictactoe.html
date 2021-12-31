@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        input{
+            border-radius: 20px;
+            height: 70px;
+            width: 80px;
+            margin: 10px 10px;
+            font-size: 35px;
+            text-align: center;
+            box-shadow: 3px 3px black;
+    
+        }
+        .game{
+            margin: 20px 20px;
+            padding: 50px 50px;
+        }
+        #submit{
+            text-align: center;
+            height: 50px;
+            width: 60px;
+            background-color: rgb(163, 199, 187);
+            border-radius: 5px;
+            box-shadow: 2px 2px black;
+        
+        }
+    </style>
+    <script src="Assets\Javascript\tictactoe.js"></script>
+    
+</head>
+<body background="Assets\image\hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg" style="background-repeat: no-repeat; background-size: cover;"> 
+    <center>
+    <div class="game">
+        <h1>Tic Tac Toe</h1>
+    <table id="game2">
+        <tr>
+            <td><input id="btn0" type="text" onclick="fnBox0();check();" readonly></td>
+            <td><input id="btn1" type="text" onclick="fnBox1();check();" readonly></td>
+            <td><input id="btn2" type="text" onclick="fnBox2();check();" readonly></td>
+
+        </tr>
+        <tr>
+            <td><input id="btn3" type="text" onclick="fnBox3();check();" readonly></td>
+            <td><input id="btn4" type="text" onclick="fnBox4();check();" readonly></td>
+            <td><input id="btn5" type="text" onclick="fnBox5();check();" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="btn6" type="text" onclick="fnBox6();check();" readonly></td>
+            <td><input id="btn7" type="text" onclick="fnBox7();check();" readonly></td>
+            <td><input id="btn8" type="text" onclick="fnBox8();check();" readonly></td>
+        </tr>
+        </table>
+        <div>
+            <button type="submit" id="submit" onclick="fnRestart()"><h4>Restart</h4></button>
+        </div>
+        <h1 id="result"></h1>
+</div>
+</center>
+</body>
+</html>

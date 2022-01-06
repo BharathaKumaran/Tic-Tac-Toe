@@ -22,3 +22,8 @@ input {
 body{
   background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg;");
 }
+button:hover{
+  color: rgb(241, 234, 241);
+  background-color: rgb(165, 54, 54);
+
+}

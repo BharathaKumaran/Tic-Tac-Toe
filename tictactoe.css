@@ -20,5 +20,5 @@ input {
   box-shadow: 2px 2px black;
 }
 body{
-  background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+  background-image: url("hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg style="background-repeat: no-repeat; background-size: cover;");
 }
